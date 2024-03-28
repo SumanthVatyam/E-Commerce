@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    width:50px;
+    height: 50px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0,0, 0, 0.6);
+} 
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar li{
+    padding: 20px;
+    list-style: none;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    text-align: right;
+}
+#head{
+    color: wheat;
+    background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/07/Air-Jordan-Shoes-Desktop-Backgrounds.jpg");
+    /* background-image: url("https://images.wallpapersden.com/image/download/michael-jordan-chicago-bulls-nike_Z2ZubmiUmZqaraWkpJRmbmdlrWZlbWU.jpg"); */
+    height:90vh; 
+    width: 100%;
+    background-size: cover;
+    background-position: top 0 right 0;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20%;
+}
+#head h4{
+    font-size: 20px;
+    color: wheat;
+    padding-bottom: 5px;
+}
+#head h2{
+    font-size: 30px;
+    line-height: 54px;
+    color: wheat;
+    padding-bottom: 5px;
+}
+#head button{
+    background-color: antiquewhite;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    padding:14px 80px 14px 65px;
+    border-radius: 6px;
+}
+
+#navbar li a:hover, #navbar li a.active{
+    color: black;
+}
+#navbar li a.active::after, #navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color:black;
+    position: absolute;
+    bottom: 2px;
+    left: 20px;
+}
+#navbar .active{
+    right: 0px;
+}
+#Product .images {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#Product .col-2 {
+    width: 23%; 
+    box-sizing: border-box; 
+    padding: 20px 10px;
+}
+
+#Product .col-2 img {
+    width: 100%;
+    border-radius: 20px; 
+}
+.col-2{
+    margin-left: 30px;
+    padding: 10px;
+}
+/* .col-2 img{
+    margin-left: 30px;
+} */
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+/*footer{
+    background-color: black;
+}
+footer .footer-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer-section ul li a{
+color: white;
+/* margin-bottom: 20px;
+margin-top: 25px;
+padding: 20px; */
+/*display: inline-block;
+text-decoration: none;
+margin-bottom: 10px;
+padding: 6px;
+font-size: 20px;
+font-weight: 500;
+padding-right: 35px;
+}
+.footer-content .logos ul li a i{
+    margin-top: 10px;
+    right: 0;
+    float: left;
+    align-items: flex-end;
+  }
+  .logos{
+    text-align: right;
+  }
+ .logos i {
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  .logos i:hover {
+    background-color: rgb(21, 21, 100);
+    color: #fff;
+    border: 1px solid rgb(252, 252, 254);
+    cursor: pointer;
+  }
+  .copyrights{
+    color: white;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items:self-end;
+    /* flex-wrap: wrap; */
+  /*  flex-direction: column;
+  }
+  .foot-nav h4{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+   
+  }
+.foot-nav a {
+    color: rgb(149, 149, 149);
+    text-decoration: none;
+}
+#main{
+    background-color: seashell;
+    margin: 20px;
+}*/
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 50px 20px;
+}
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+}
+.logos ul li {
+   
+    display: inline;
+    margin-left: 10px;
+}
+.logos ul li a i {
+    font-size: 24px;
+}
+.copyrights {
+    margin-top: 20px;
+    text-align: center;
+}
+.foot-nav h4 {
+    display: inline-block;
+    margin: 0 10px;
+    color: #999;
+}
+.copyrights .foot-nav center h4 a{
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 20px ;
+}

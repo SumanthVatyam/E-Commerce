@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    width:50px;
+    height: 50px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0,0, 0, 0.6);
+} 
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar li{
+    padding: 20px;
+    list-style: none;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    text-align: right;
+}
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+    .container
+    {
+        max-width: 400px;
+        margin: 50px auto;
+        background: whitesmoke;
+        padding: 20px;
+        border-radius: 80px;
+        /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+    }
+    .container h2{
+        font-size: 38px;
+        font-weight: 300px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-weight:bolder;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select,
+    .date-picker {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .checkbox-group {
+        margin-top: 10px;
+    }
+    .checkbox-group  a{
+        color: black;
+    }
+
+    .checkbox-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .checkbox-group #id{
+        font-style: italic;
+    }
+    .btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button{
+
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+    footer {
+    background-color: black;
+    color: #fff;
+    padding: 50px 20px;
+}
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-content .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+}
+.logos ul li {
+   
+    display: inline;
+    margin-left: 10px;
+}
+.logos ul li a i {
+    font-size: 24px;
+}
+.copyrights {
+    margin-top: 20px;
+    text-align: center;
+}
+.foot-nav h4 {
+    display: inline-block;
+    margin: 0 10px;
+    color: #999;
+}
+.copyrights .foot-nav center h4 a{
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 20px ;
+}
+
+</style>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="https://cdn1.iconfinder.com/data/icons/sport-83/65/soccer_cleats-512.png" alt="" class="logo"></a>
+            <ul id="navbar">
+                    <li><a href="index.html" class="active">Home</a> </li>
+                    <li><a href="products.html">Products</a> </li>
+                    <li><a href="About.html">About us</a> </li>
+                    <li><a href="Contact.html">Contact us</a> </li>
+                    <li><a href="login.html">login</a> </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <h2>Now Let's Make You as Our Member</h2>
+    <form id="registrationForm" action="#" method="post">
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+        </div>
+        <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required>
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+        </div>
+        <div class="form-group">
+            <label for="shoppingPreference">Shopping Preference:</label>
+            <select id="shoppingPreference" name="shoppingPreference">
+                <option value="mens">Men's</option>
+                <option value="womens">Women's</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" name="dob" class="date-picker" placeholder="Date Of Birth" required>
+        </div>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="terms" required id="one">
+                Sign up to receive store updates, including product releases, special offers, and member benefits. </label>
+            <label><input type="checkbox" name="subscribe">I agree to <a href="">Privacy Policy</a> and  <a href="">Terms of Use</a></label>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <ul>
+                <li><a href="">Find a Store</a></li>
+                <li><a href="">Become a Member</a></li>
+                <li><a href="">Student Discounts</a></li>
+                <li><a href="">Send Us Feedback</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <ul>
+                <li><a href="">Help</a></li>
+                <li><a href="">Get Help</a></li>
+                <li><a href="">Order Status</a></li>
+                <li><a href="">Payment Options</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <ul>
+                <li><a href="">Company</a></li>
+                <li><a href="">About Store</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="logos">
+            <ul>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="copyrights">
+            <center>
+                <span>&copy;2024 Shoe.store. All Rights are Reserved</span>
+            </center>
+            <div class="foot-nav">
+                <center>
+                    <h4><a href="">Guides</a></h4>
+                    <h4><a href="">Terms Of Sales</a></h4>
+                    <h4><a href="">Terms Of Use</a></h4>
+                    <h4><a href="">Privacy Policy</a></h4>
+                </center>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

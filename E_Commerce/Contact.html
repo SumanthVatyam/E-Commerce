@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    width:50px;
+    height: 50px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0,0, 0, 0.4);
+} 
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar li{
+    padding: 20px;
+    list-style: none;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    text-align: right;
+}
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-form {
+        display: flex;
+    }
+
+    .search-input {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px 0 0 5px;
+        font-size: 16px;
+    }
+
+    .search-button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+   .search-button
+    {
+        padding: 10px;
+        font-size: 14px;      
+    }
+    .help h1
+    {
+        font-size: 50px;
+        margin-top:40px;
+        display: flex;
+        justify-content: center; 
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: -6px;
+        font-weight: 500;
+    }
+    .sign-in{
+        padding:80px;
+        margin: 60px;
+        padding-top: 40px;
+    }
+    .sign-in h1{
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        font-style: oblique;
+    }
+    .sign-in button{
+        border-radius: 20px;
+        width: 130px;
+        height: 40px;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .sign-in button a{
+        text-decoration: none;
+        color: white;
+    }
+    .sign-in p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style:italic ;
+    }
+    .sign-in p a{
+        color: black;
+    }
+    .assists{
+        padding:80px;
+        margin: 60px;
+        padding-top: 40px;
+        margin-top: -120px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 30px;
+    }
+    .main{
+        display:flex
+    }
+    .main .sub{
+       margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .main .sub h3{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    .main .sub h3 a{
+        text-decoration: none;
+        color: black;
+    }
+    .main .sub p{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .main .sub p a{
+        text-decoration: none;
+        color: black;
+    }
+    section #id{
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 120px;
+        
+        padding:40px;
+        margin: 60px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+        margin-top: 60px;
+        border-bottom: 2px solid #ccc;
+    }
+    .main-1{
+        display: flex;
+        justify-content: center;
+
+    }
+    .main-1 .sub-1{
+        padding:20px;
+        margin: 40px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .main-1 .sub-1  i{
+        font-size: 40px;
+        margin-left: 120px;
+        color: black;
+    }
+    .main-1 .sub-1  #store{
+        margin-left: -50px;
+    }
+    .main-1 .sub-1 h4{
+        margin: 10px;
+        padding: 10px;
+    }
+    .main-1 .sub-1 h4 a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    .main-1 .sub-1 p{
+        margin-top: -30px;
+        padding-left: 80px;
+    }
+    .main-1 .sub-1 p a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    footer {
+    background-color: black;
+    color: #fff;
+    padding: 50px 20px;
+}
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-content .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+}
+.logos ul li {
+   
+    display: inline;
+    margin-left: 10px;
+}
+.logos ul li a i {
+    font-size: 24px;
+}
+.copyrights {
+    margin-top: 20px;
+    text-align: center;
+}
+.foot-nav h4 {
+    display: inline-block;
+    margin: 0 10px;
+    color: #999;
+}
+.copyrights .foot-nav center h4 a{
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 20px ;
+}
+
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="https://cdn1.iconfinder.com/data/icons/sport-83/65/soccer_cleats-512.png" alt="" class="logo"></a>
+            <ul id="navbar">
+                    <li><a href="index.html" class="active">Home</a> </li>
+                    <li><a href="products.html">Products</a> </li>
+                    <li><a href="About.html">About us</a> </li>
+                    <li><a href="Contact.html">Contact us</a> </li>
+                    <li><a href="login.html">login</a> </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section style="background-color: whitesmoke;">
+    <div class="help">
+        <h1>
+            GET HELP
+         </h1>
+    </div>
+    <div class="container">
+        <form class="search-form" action="#" method="get">
+            <input type="text" class="search-input" placeholder="What can we help you with?" name="search">
+            <button type="submit" class="search-button">Search</button>
+        </form>
+    </div>
+    <div class="sign-in">
+        <h1>
+            Get a Personalised Help experience.
+        </h1>
+        <button><a href="login.html">Sign In</a></button><br>
+        <p>Not a Member, Yet? <a href="login.html">Join Us</a></p>
+    </div>
+    <div class="assists">
+            <h2>
+                Quick Assists 
+            </h2>
+            <p>Answer to our most frequently asked questions are just one click away.</p>
+    </div>
+    <div class="main">
+        <div class="sub">
+            <h3><a href="">Shopping & Delivery</a></h3><br>
+            <p><a href="">What are Our Shopping options?</a></p><br>
+            <p><a href="">How do I get free shipping from our store?</a></p><br>
+            <p><a href="">Orders?</a></p>
+        </div>
+        <div class="sub">
+            <h3><a href="">Returns</a></h3><br>
+            <p><a href="">What are our return policies?</a></p><br>
+            <p><a href="">How do I return my Order?</a></p><br>
+            <p><a href="">Where is my refund?</a></p>
+        </div>
+            <div class="sub">
+            <h3><a href="">Our Membership</a></h3><br>
+            <p><a href="">What is Our Membership?</a></p><br>
+            <p><a href="">How do I get newest sneaker releases?</a></p><br>
+            <p><a href="">How do I reset my password?</a></p>
+        </div>
+        <div class="sub">
+            <h3><a href="">Company Info</a></h3><br>
+            <p><a href="">Do Our shoes have a warranty?</a></p><br>
+            <p><a href="">Can I recycle my shoes?</a></p><br>
+            <p><a href="">Does Our Offer grants or donations?</a></p>
+        </div>
+    </div>
+</section>
+<section>
+    <h2 id="id">
+        Contact Us
+    </h2> <br><br>
+    <div class="main-1">
+        <div class="sub-1">
+            <a href=""> <i class="fa-solid fa-message fa-shake"></i></a><br><br>
+            <h4><a href="">Products and Orders</a></h4><br>
+            <p>
+                <a href="">
+                    4 am - 11 pm PT <br>
+                    7 days a week
+                </a>
+            </p>
+        </div>
+        <div class="sub-1">
+            <a href=""><i class="fa-solid fa-phone fa-beat-fade"></i></a>
+            <h4><a href="">NRC, NTC & .SWOOSH</a></h4> <br>
+            <p>
+                <a href="">
+                    1-800-379-6453 <br>
+                    8 am - 5 pm PT <br>
+                    Mon - Fri
+                </a>
+            </p>
+        </div>
+        <div class="sub-1">
+            <a href=""><i class="fa-solid fa-phone fa-beat-fade"></i></a>
+            <h4><a href="">Company Info & Inquiries</a></h4> <br>
+            <p>
+                <a href="">
+                    1-800-379-6453 <br>
+                    7 am - 4 pm PT <br>
+                    Mon - Fri
+                </a>
+            </p>
+        </div>
+        <div class="sub-1">
+            <a href="" id="store">
+                <i  class="fa-solid fa-location-dot fa-bounce"></i>
+            </a>
+            <h4>
+                <a href="">
+                    <b>Store Locator</b>
+                </a>
+            </h4>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <ul>
+                <li><a href="">Find a Store</a></li>
+                <li><a href="">Become a Member</a></li>
+                <li><a href="">Student Discounts</a></li>
+                <li><a href="">Send Us Feedback</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <ul>
+                <li><a href="">Help</a></li>
+                <li><a href="">Get Help</a></li>
+                <li><a href="">Order Status</a></li>
+                <li><a href="">Payment Options</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <ul>
+                <li><a href="">Company</a></li>
+                <li><a href="">About Store</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="logos">
+            <ul>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="copyrights">
+            <center>
+                <span>&copy;2024 Shoe.store. All Rights are Reserved</span>
+            </center>
+            <div class="foot-nav">
+                <center>
+                    <h4><a href="">Guides</a></h4>
+                    <h4><a href="">Terms Of Sales</a></h4>
+                    <h4><a href="">Terms Of Use</a></h4>
+                    <h4><a href="">Privacy Policy</a></h4>
+                </center>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
